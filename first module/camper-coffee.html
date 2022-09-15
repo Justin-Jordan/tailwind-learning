@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        burlywood: '#DEB887',
+                    },
+                    backgroundImage: {
+                        'body-bg': "url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg)"
+                    },
+                    fontFamily: {
+                        'impact': ['impact', 'serif']
+                    }
+                }
+            }
+            }
+        </script>
+        <title>Camper coffee tailwind</title>
+	</head>
+	<body class="bg-body-bg font-serif p-5">
+		<div class="w-4/5 bg-burlywood mr-auto ml-auto p-5 max-w-lg">
+            <header>
+                <h1 class="text-center text-4xl m-4 mt-0">CAMPER CAFE</h1>
+                <p class="text-center italic">Est. 2020</p>
+            </header>
+            <hr class="p-0.5 bg-orange-900 border-orange-900 my-6">
+            <main>
+                <section>
+                    <h2 class="text-center text-3xl text-impact">Coffee</h2>
+                    <img class="block ml-auto mr-auto" src="https://cdn.freecodecamp.org/curriculum/css-cafe/coffee.jpg" alt="coffee icon"/>
+                    <article>
+                        <p class="inline-block w-3/4 font-sans text-lg text-left my-1">French Vanilla</p><p class="inline-block w-1/4 text-lg text-right">3.00</p>
+                    </article>
+                    <article>
+                        <p class="inline-block w-3/4 font-sans text-lg text-left my-1">Caramel Macchiato</p><p class="inline-block w-1/4 text-lg text-right">3.75</p>
+                    </article>
+                    <article>
+                        <p class="inline-block w-3/4 font-sans text-lg text-left my-1">Pumpkin Spice</p><p class="inline-block w-1/4 text-lg text-right">3.50</p>
+                    </article>
+                    <article>
+                        <p class="inline-block w-3/4 font-sans text-lg text-left my-1">Hazelnut</p><p class="inline-block w-1/4 text-lg text-right">4.00</p>
+                    </article>
+                    <article>
+                        <p class="inline-block w-3/4 font-sans text-lg text-left my-1">Mocha</p><p class="inline-block w-1/4 text-lg text-right">4.50</p>
+                    </article>
+                </section>
+                <section>
+                    <h2 class="text-center text-3xl text-impact">Desserts</h2>
+                    <img class="block ml-auto mr-auto" src="https://cdn.freecodecamp.org/curriculum/css-cafe/pie.jpg" alt="pie icon"/>
+                    <article>
+                        <p class="inline-block w-3/4 font-sans text-lg text-left my-1">Donut</p><p class="inline-block w-1/4 text-lg text-right">1.50</p>
+                    </article>
+                    <article>
+                        <p class="inline-block w-3/4 font-sans text-lg text-left my-1">Cherry Pie</p><p class="inline-block w-1/4 text-lg text-right">2.75</p>
+                    </article>
+                    <article>
+                        <p class="inline-block w-3/4 font-sans text-lg text-left my-1">Cheesecake</p><p class="inline-block w-1/4 text-lg text-right">3.00</p>
+                    </article>
+                    <article>
+                        <p class="inline-block w-3/4 font-sans text-lg text-left my-1">Cinnamon Roll</p><p class="inline-block w-1/4 text-lg text-right">2.50</p>
+                    </article>
+                </section>
+            </main>
+            <hr class="p-0.5 bg-orange-900 border-orange-900 my-6">
+            <footer>
+                <p class="text-center text-sm">
+                    <a class="underline hover:text-orange-900 text-black visited:tex-orange-900" href="https://www.freecodecamp.org" target="_blank">Visit our website</a>
+                </p>
+                <p class="text-center text-sm mb-1">123 Free Code Camp Drive</p>
+            </footer>
+        </div>
+	</body>
+</html>
